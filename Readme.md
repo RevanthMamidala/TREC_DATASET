@@ -1,5 +1,3 @@
-<style>body {text-align: justify}</style>
-
 # Tile and Rotation Enhanced Dataset
 
 ## GENERAL INFORMATION
@@ -55,16 +53,6 @@ Conterminous United States (**CONUS**)
 │       └── Crop_Frequency_2008-2024
 ├── TREC Dataset
 ├── Lookup Tables and SWAT Plant Database
-├── SWAT+ Model Output Files
-│   ├── Tile Drainage Area in LSU
-│   ├── Boone Watershed
-│   │   ├── Boone_CDL_20250629
-│   │   ├── Boone_TREC_20250630
-│   │   └── Observed Data
-│   └── Minnesota Watershed
-│       ├── Minnesota_CDL_20250625
-│       ├── Minnesota_TREC_20250625
-│       └── Observed Data
 └── HRU_Split
 ```
 
@@ -94,25 +82,7 @@ Conterminous United States (**CONUS**)
    - `plant_Database_SWAT.csv`: Crop database used in the study.
    - `TREC_Datset_Code_Names.csv`: Lookup table mapping crop type and modified land use code.
 
-4. **SWAT+ Model Files/**<br>
-	This folder contains files related to SWAT+ simulation and analysis used for validating the dataset in the study.
-
-	- **`Boone Watershed/` and `Minnesota Watershed/`**  
-	  These folders contain SWAT+ simulation input and output files, as well as observed data for the respective watersheds.
-	  - **SWAT+ Model Folders**: `Boone_CDL_20250629/`, `Boone_TREC_20250630/`, `Minnesota_CDL_20250625/`, `Minnesota_TREC_20250625/`:  
-	    Each of these folders contain all the files related to SWAT+ model created using QSWAT+ and SWAT+ Editor.
-			- **CDL** refers to the SWAT+ model set up using the Cropland Data Layer (CDL) dataset.  
-			- **TREC** refers to the SWAT+ model set up using the TREC dataset.  
-		    **Note:** Do not edit the text files in `/Scenarios/Default/TxtInOut/` folder and the GIS files in `/Watershed/` folder unless you are familiar with the SWAT+ model structure.
-	  - `Observed Data/Flow_cms.csv`:  
-	    Contains observed streamflow data in cubic meters per second (_cms_), used for validating SWAT+ model outputs.
-	
-	- **`Tile Drainage Area in LSU/`**  
-	  This folder contains CSV files for both the Boone and Minnesota watersheds.  
-	  Each file maps the unique **LSUID (Landscape Unit ID)** to the **tile drainage area (in hectares)** for each **Landscape Unit (LSU)**.  
-	  This is used to validate the spatial accuracy of the TREC dataset in relation to tile-drained regions.
-
-5. **HRU_Split/**<br>
+4. **HRU_Split/**<br>
    This folder contains scripts and tools for splitting the **Hydrologic Response Units** (HRUs) for visualization purposes and linking SWAT+ model outputs with shapefiles.
    - `HRUSplit.bat`: Batch file to automate HRU splitting workflow.
    - `SplitHRU_Shape.py`: Python script for splitting HRU polygons based on percentage allocation.
@@ -316,9 +286,10 @@ This means others are free to share (copy and redistribute the material in any m
 
 Please cite both items when using this dataset:
 
-> This dataset: https://doi.org/10.25380/iastate.29869676 <br>
+> This dataset: Mamidala, R. & Liu, L. Tile Drainage and Rotation-Enhanced Cropland Data Layer. Iowa State University (2025) doi:https://doi.org/10.25380/iastate.29869676 <br>
 > The related publication as linked to this dataset at the link above.
 
 For more information on the license, visit:  [https://creativecommons.org/licenses/by/4.0](https://creativecommons.org/licenses/by/4.0)
+
 
 ---
