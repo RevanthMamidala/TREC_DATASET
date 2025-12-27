@@ -31,58 +31,28 @@ Enhancing Agricultural Impact Assessment with Tile Drainage and Rotation-Enhance
 
 ---
 
-### COLLECTION INFORMATION
-
-**Time Period:**  
-The dataset integrates information from multiple sources:
-- **Crop Data Layer (CDL):** Records from **2008 to 2024**, with the **2017 CDL** used as the base layer for classification.
-- **Tile Drainage Data:** Derived from the **2017 USDA Agricultural Census**.
-
-**Spatial Extent:**  
-Conterminous United States (**CONUS**)
-
----
-
 ## FILE DIRECTORY
 
 ```
-├── GEE Script and Input Data
-│   ├── Google Earth Engine JavaScript
-│   └── Input Data - GEE Assets
-│       ├── 2017_30m_cdls
-│       └── Crop_Frequency_2008-2024
-├── TREC Dataset
+├── Google Earth Engine JavaScript
 ├── Lookup Tables and SWAT Plant Database
 └── HRU_Split
 ```
 
 ### Folders and files
 
-1. **GEE Script and Input Data/**<br>
-	This folder contains scripts and input datasets used for processing in Google Earth Engine (GEE).
+1. **Google Earth Engine JavaScript/**<br>
+	This folder contains scripts used for processing in Google Earth Engine (GEE).
    - `Google Earth Engine JavaScript/TREC2017_20250519.js`: Main GEE script used for generating the TREC dataset.<br>
    		See "METHODS AND MATERIALS - Steps to Generate TREC Dataset" for detailed instructions.
-   - `Input Data - GEE Assets/`: <br>
-	   Raster files downloaded from USDA NASS Research and Science: 
-			`https://www.nass.usda.gov/Research_and_Science/Cropland/Release/index.php`
-	   - `2017_30m_cdls/`: The Cropland Data Layer (CDL) dataset, base layer used for classification (GeoTIFF format with metadata)."2017 National CDL (1.7 GB)"
-	   - `Crop_Frequency_2008-2024/`: Raster files showing crop frequency layers for corn, soybeans, wheat, and cotton (2008–2024).  "2024 National Frequency Layer 30-meter (2.0 GB)"
-   
-2. **TREC Dataset/**<br>
-   This folder contains the output raster generated from GEE and a style file.
-   - Raster file 
-	   - `Tile_Rotation_Enhanced_CDL2017.tif`: Raster file showing classified land use with tile rotation separation.
-	   - Associated metadata and auxiliary files (`.tfw`, `.aux.xml`, `.vat.dbf`, etc.) for GIS compatibility.
-   - Layer file
-   		- `Tile_Rotation_Enhanced_CDL_2017.lyrx`: ESRI layer file containing TREC land use raster with **symbology**.
 
-3. **Lookup Tables and SWAT Plant Database/**<br>
+2. **Lookup Tables and SWAT Plant Database/**<br>
    This folder contains supporting files for mapping CDL codes and linking SWAT+ plant parameters.
    - `Landuse_lookup_SWAT.csv`: Lookup table linking land use codes to SWAT+ inputs used in the study.
    - `plant_Database_SWAT.csv`: Crop database used in the study.
    - `TREC_Datset_Code_Names.csv`: Lookup table mapping crop type and modified land use code.
 
-4. **HRU_Split/**<br>
+3. **HRU_Split/**<br>
    This folder contains scripts and tools for splitting the **Hydrologic Response Units** (HRUs) for visualization purposes and linking SWAT+ model outputs with shapefiles.
    - `HRUSplit.bat`: Batch file to automate HRU splitting workflow.
    - `SplitHRU_Shape.py`: Python script for splitting HRU polygons based on percentage allocation.
@@ -91,44 +61,6 @@ Conterminous United States (**CONUS**)
 ---
 
 ## CODEBOOK
-
-**Number of Variables/Columns:**  
-1 (Single-band raster with categorical integer codes)
-
-**Number of Cases/Rows (Pixels):**  
-- **Columns:** 153,812  
-- **Rows:** 96,524  
-- **Total Pixels:** 14,859,430,688 (≈ 14.86 billion pixels at 30 m resolution)  
-- **Pixel Size:** 30 m × 30 m (900 m²)
-
-**Missing Data Codes:**  
-- `65535` — Represents NoData / background (value ignored in statistics)
-
-**Pixel Data Type:**  
-- Unsigned 16-bit integer (`unsigned short`)
-
-**Valid Range of Values:**  
-- **Minimum:** 1  
-- **Maximum:** 1522  
-- **Mean:** 93.11  
-- **Standard Deviation:** 144.31  
-
-**Coordinate System:**  
-- **Projected Coordinate System:** NAD 1983 Contiguous USA Albers (EPSG: 5070)  
-  - Linear Unit: Meters  
-  - Central Meridian: -96.0  
-  - Standard Parallels: 29.5, 45.5  
-  - Latitude of Origin: 23.0  
-- **Geographic Coordinate System:** NAD 1983 (EPSG: 4269)  
-  - Angular Unit: Degree  
-  - Prime Meridian: Greenwich  
-  - Datum: D North American 1983
-
-**Extent:**  
-- **Top:** 3,172,620.000000 m  
-- **Bottom:** 276,900.000000 m  
-- **Left:** -2,356,110.000000 m  
-- **Right:** 2,258,250.000000 m
 
 ### Columns in the `TREC_Datset_Code_Names.csv`
 
@@ -224,7 +156,8 @@ The performance of the TREC dataset against traditional CDL dataset was validate
 
 **Step4:** Run the script to generate the TREC dataset.<br>
 **Step5:** Append the attributes table of the resulting TREC dataset to the `TREC_Datset_Code_Names.csv` file to map pixel values to land use classes and tile drainage conditions.
- 
+
+For more information visit the dataset repository: [https://doi.org/10.25380/iastate.29869676](https://doi.org/10.25380/iastate.29869676) 
 ---
 
 ### **NOTE:** GEE Tile Error - Image Size Exceeds Limit
@@ -293,3 +226,4 @@ For more information on the license, visit:  [https://creativecommons.org/licens
 
 
 ---
+
