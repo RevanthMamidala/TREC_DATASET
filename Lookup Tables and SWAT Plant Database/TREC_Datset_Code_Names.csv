@@ -1,0 +1,493 @@
+Codes,Class_Names
+0,Background
+1,Corn
+2,Cotton
+3,Rice
+4,Sorghum
+5,Soybeans
+6,Sunflower
+7,
+8, 
+9, 
+10,Peanuts
+11,Tobacco
+12,Sweet Corn
+13,Pop or Orn Corn
+14,Mint
+15, 
+16, 
+17, 
+18, 
+19, 
+20, 
+21,Barley
+22,Durum Wheat
+23,Spring Wheat
+24,Winter Wheat
+25,Other Small Grains
+26,Dbl Crop WinWht/Soybeans
+27,Rye
+28,Oats
+29,Millet
+30,Speltz
+31,Canola
+32,Flaxseed
+33,Safflower
+34,Rape Seed
+35,Mustard
+36,Alfalfa
+37,Other Hay/Non Alfalfa
+38,Camelina
+39,Buckwheat
+40, 
+41,Sugarbeets
+42,Dry Beans
+43,Potatoes
+44,Other Crops
+45,Sugarcane
+46,Sweet Potatoes
+47,Misc Vegs & Fruits
+48,Watermelons
+49,Onions
+50,Cucumbers
+51,Chick Peas
+52,Lentils
+53,Peas
+54,Tomatoes
+55,Caneberries
+56,Hops
+57,Herbs
+58,Clover/Wildflowers
+59,Sod/Grass Seed
+60,Switchgrass
+61,Fallow/Idle Cropland
+62, 
+63,Forest
+64,Shrubland
+65,Barren
+66,Cherries
+67,Peaches
+68,Apples
+69,Grapes
+70,Christmas Trees
+71,Other Tree Crops
+72,Citrus
+73, 
+74,Pecans
+75,Almonds
+76,Walnuts
+77,Pears
+78, 
+79, 
+80, 
+81,Clouds/No Data
+82,Developed
+83,Water
+84, 
+85, 
+86, 
+87,Wetlands
+88,Nonag/Undefined
+89, 
+90, 
+91, 
+92,Aquaculture
+93, 
+94, 
+95, 
+96, 
+97, 
+98, 
+99, 
+100, 
+101, 
+102, 
+103, 
+104, 
+105, 
+106, 
+107, 
+108, 
+109, 
+110, 
+111,Open Water
+112,Perennial Ice/Snow 
+113, 
+114, 
+115, 
+116, 
+117, 
+118, 
+119, 
+120, 
+121,Developed/Open Space
+122,Developed/Low Intensity
+123,Developed/Med Intensity
+124,Developed/High Intensity
+125, 
+126, 
+127, 
+128, 
+129, 
+130, 
+131,Barren
+132, 
+133, 
+134, 
+135, 
+136, 
+137, 
+138, 
+139, 
+140, 
+141,Deciduous Forest
+142,Evergreen Forest
+143,Mixed Forest
+144, 
+145, 
+146, 
+147, 
+148, 
+149, 
+150, 
+151, 
+152,Shrubland
+153, 
+154, 
+155, 
+156, 
+157, 
+158, 
+159, 
+160, 
+161, 
+162, 
+163, 
+164, 
+165, 
+166, 
+167, 
+168, 
+169, 
+170, 
+171, 
+172, 
+173, 
+174, 
+175, 
+176,Grass/Pasture
+177, 
+178, 
+179, 
+180, 
+181, 
+182, 
+183, 
+184, 
+185, 
+186, 
+187, 
+188, 
+189, 
+190,Woody Wetlands
+191, 
+192, 
+193, 
+194, 
+195,Herbaceous Wetlands
+196, 
+197, 
+198, 
+199, 
+200, 
+201, 
+202, 
+203, 
+204,Pistachios
+205,Triticale
+206,Carrots
+207,Asparagus
+208,Garlic
+209,Cantaloupes
+210,Prunes
+211,Olives
+212,Oranges
+213,Honeydew Melons
+214,Broccoli
+215,Avocados
+216,Peppers
+217,Pomegranates
+218,Nectarines
+219,Greens
+220,Plums
+221,Strawberries
+222,Squash
+223,Apricots
+224,Vetch
+225,Dbl Crop WinWht/Corn
+226,Dbl Crop Oats/Corn
+227,Lettuce
+228,Dbl Crop Triticale/Corn
+229,Pumpkins
+230,Dbl Crop Lettuce/Durum Wht
+231,Dbl Crop Lettuce/Cantaloupe
+232,Dbl Crop Lettuce/Cotton
+233,Dbl Crop Lettuce/Barley
+234,Dbl Crop Durum Wht/Sorghum
+235,Dbl Crop Barley/Sorghum
+236,Dbl Crop WinWht/Sorghum
+237,Dbl Crop Barley/Corn
+238,Dbl Crop WinWht/Cotton
+239,Dbl Crop Soybeans/Cotton
+240,Dbl Crop Soybeans/Oats
+241,Dbl Crop Corn/Soybeans
+242,Blueberries
+243,Cabbage
+244,Cauliflower
+245,Celery
+246,Radishes
+247,Turnips
+248,Eggplants
+249,Gourds
+250,Cranberries
+251, 
+252, 
+253, 
+254,Dbl Crop Barley/Soybeans
+255, 
+501,Continuous Corn
+502,Continuous Cotton
+505,Continuous Soybean
+522,Continuous Wheat
+1001,Tiled Corn
+1002,Tiled Cotton
+1003,Tiled Rice
+1004,Tiled Sorghum
+1005,Tiled Soybeans
+1006,Tiled Sunflower
+1010,Tiled Peanuts
+1011,Tiled Tobacco
+1012,Tiled Sweet Corn
+1013,Tiled Pop or Orn Corn
+1014,Tiled Mint
+1021,Tiled Barley
+1022,Tiled Durum Wheat
+1023,Tiled Spring Wheat
+1024,Tiled Winter Wheat
+1025,Tiled Other Small Grains
+1026,Tiled Dbl Crop WinWht/Soybeans
+1027,Tiled Rye
+1028,Tiled Oats
+1029,Tiled Millet
+1030,Tiled Speltz
+1031,Tiled Canola
+1032,Tiled Flaxseed
+1033,Tiled Safflower
+1034,Tiled Rape Seed
+1035,Tiled Mustard
+1036,Tiled Alfalfa
+1037,Tiled Other Hay/Non Alfalfa
+1038,Tiled Camelina
+1039,Tiled Buckwheat
+1041,Tiled Sugarbeets
+1042,Tiled Dry Beans
+1043,Tiled Potatoes
+1044,Tiled Other Crops
+1045,Tiled Sugarcane
+1046,Tiled Sweet Potatoes
+1047,Tiled Misc Vegs & Fruits
+1048,Tiled Watermelons
+1049,Tiled Onions
+1050,Tiled Cucumbers
+1051,Tiled Chick Peas
+1052,Tiled Lentils
+1053,Tiled Peas
+1054,Tiled Tomatoes
+1055,Tiled Caneberries
+1056,Tiled Hops
+1057,Tiled Herbs
+1058,Tiled Clover/Wildflowers
+1059,Tiled Sod/Grass Seed
+1060,Tiled Switchgrass
+1061,Tiled Fallow/Idle Cropland
+1064,Tiled Shrubland
+1066,Tiled Cherries
+1067,Tiled Peaches
+1068,Tiled Apples
+1069,Tiled Grapes
+1072,Tiled Citrus
+1074,Tiled Pecans
+1075,Tiled Almonds
+1076,Tiled Walnuts
+1077,Tiled Pears
+1501,Tiled Continuous Corn
+1502,Tiled Continuous Cotton
+1505,Tiled Continuous Soybean
+1522,Tiled Continuous Wheat
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+1152,Tiled Shrubland
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+1176,Tiled Grass/Pasture
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+1204,Tiled Pistachios
+1205,Tiled Triticale
+1206,Tiled Carrots
+1207,Tiled Asparagus
+1208,Tiled Garlic
+1209,Tiled Cantaloupes
+1210,Tiled Prunes
+1211,Tiled Olives
+1212,Tiled Oranges
+1213,Tiled Honeydew Melons
+1214,Tiled Broccoli
+1215,Tiled Avocados
+1216,Tiled Peppers
+1217,Tiled Pomegranates
+1218,Tiled Nectarines
+1219,Tiled Greens
+1220,Tiled Plums
+1221,Tiled Strawberries
+1222,Tiled Squash
+1223,Tiled Apricots
+1224,Tiled Vetch
+1225,Tiled Dbl Crop WinWht/Corn
+1226,Tiled Dbl Crop Oats/Corn
+1227,Tiled Lettuce
+1228,Tiled Dbl Crop Triticale/Corn
+1229,Tiled Pumpkins
+1230,Tiled Dbl Crop Lettuce/Durum Wht
+1231,Tiled Dbl Crop Lettuce/Cantaloupe
+1232,Tiled Dbl Crop Lettuce/Cotton
+1233,Tiled Dbl Crop Lettuce/Barley
+1234,Tiled Dbl Crop Durum Wht/Sorghum
+1235,Tiled Dbl Crop Barley/Sorghum
+1236,Tiled Dbl Crop WinWht/Sorghum
+1237,Tiled Dbl Crop Barley/Corn
+1238,Tiled Dbl Crop WinWht/Cotton
+1239,Tiled Dbl Crop Soybeans/Cotton
+1240,Tiled Dbl Crop Soybeans/Oats
+1241,Tiled Dbl Crop Corn/Soybeans
+1242,Tiled Blueberries
+1243,Tiled Cabbage
+1244,Tiled Cauliflower
+1245,Tiled Celery
+1246,Tiled Radishes
+1247,Tiled Turnips
+1248,Tiled Eggplants
+1249,Tiled Gourds
+1250,Tiled Cranberries
+,
+,
+,
+1254,Tiled Dbl Crop Barley/Soybeans
