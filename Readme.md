@@ -158,6 +158,7 @@ The performance of the TREC dataset against traditional CDL dataset was validate
 **Step5:** Append the attributes table of the resulting TREC dataset to the `TREC_Datset_Code_Names.csv` file to map pixel values to land use classes and tile drainage conditions.
 
 For more information visit the dataset repository: [https://doi.org/10.25380/iastate.29869676](https://doi.org/10.25380/iastate.29869676) 
+
 ---
 
 ### **NOTE:** GEE Tile Error - Image Size Exceeds Limit
@@ -222,8 +223,8 @@ Please cite both items when using this dataset:
 > This dataset: Mamidala, R. & Liu, L. Tile Drainage and Rotation-Enhanced Cropland Data Layer. Iowa State University (2025) doi:https://doi.org/10.25380/iastate.29869676 <br>
 > The related publication as linked to this dataset at the link above.
 
-For more information on the license, visit:  [https://creativecommons.org/licenses/by/4.0](https://creativecommons.org/licenses/by/4.0)
-
+For more information on the license, visit:  [https://creativecommons.org/licenses/by/4.0](https://creativecommons.org/licenses/by/4.0).
 
 ---
+
 
