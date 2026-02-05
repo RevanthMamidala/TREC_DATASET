@@ -213,18 +213,25 @@ pip install geopandas pandas numpy shapely joblib
 ```
 ---
 
+
 ### LICENSING
 
 This dataset is licensed under the **Creative Commons Attribution (CC-BY) 4.0 International License**.  
 This means others are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially, **as long as appropriate credit is given** to the original creator(s).
 
-Please cite both items when using this dataset:
+Please cite **both** the dataset and the companion publication when using this resource:
 
-> This dataset: Mamidala, R. & Liu, L. Tile Drainage and Rotation-Enhanced Cropland Data Layer. Iowa State University (2025) doi:https://doi.org/10.25380/iastate.29869676 <br>
-> The related publication as linked to this dataset at the link above.
+**Dataset**  
+> Mamidala, R. & Liu, L. *Tile Drainage and Rotation-Enhanced Cropland Data Layer*. Iowa State University DataShare (2026).  
+> https://doi.org/10.25380/iastate.29869676.v1
 
-For more information on the license, visit:  [https://creativecommons.org/licenses/by/4.0](https://creativecommons.org/licenses/by/4.0).
+**Publication**  
+> Mamidala, R., & Liu, L. *Tile-drainage and Crop Rotation Enhanced Cropland Dataset to Improve Spatial Accuracy of Eco-hydrologic Models*. Scientific Data (2026).  
+> https://doi.org/10.1038/s41597-026-06693-7
+
+For more information on the license, visit:  [https://creativecommons.org/licenses/by/4.0](https://creativecommons.org/licenses/by/4.0)
 
 ---
+
 
 
